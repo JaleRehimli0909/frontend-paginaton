@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.text-primary {
+  color: blue;
+}
+.list-group {
+  list-style: none;
+}
+.list-group-item {
+  border: 1px solid grey;
+  padding: 7px;
+}
+.pagination {
+  display: flex;
+  list-style: none;
+}
+.page-item {
+  border: 1px solid grey;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+.pagination :hover {
+  background-color: grey;
+}
